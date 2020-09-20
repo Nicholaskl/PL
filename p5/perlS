@@ -1,0 +1,13 @@
+#!/usr/bin/env perl
+
+use Modern::Perl;
+use autodie;
+
+
+use File::Find;
+find ( \&wanted, "/" );
+
+sub wanted {
+    print "$File::Find::name\n" if "$File::Find::name" =~ /\.conf/;
+}
+
