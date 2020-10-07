@@ -1,3 +1,11 @@
+c ---------------------------------------------------
+c File:     fizzbuzz.f
+c Author:   Nicholas Klvana-Hooper
+c Created:  18/8/2020
+c Modified: 7/10/2020
+c Purpose:  Basic fizzbuzz program in fortran
+c ---------------------------------------------------
+
         program sumloop
         
         integer i

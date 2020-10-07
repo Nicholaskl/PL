@@ -1,3 +1,12 @@
+# ------------------------------------------------- #
+# File:     fizzbuzz.a68                            #
+# Author:   Nicholas Klvana-Hooper                  #
+# Created:  3/9/2020                                #
+# Modified: 7/10/2020                               #
+# Purpose:  Basic fizzbuzz program in algol 68      #
+# ------------------------------------------------- #
+
+
 FOR i TO 100
     DO IF i MOD 15 = 0
         THEN print(("fizz buzz", new line)) 
