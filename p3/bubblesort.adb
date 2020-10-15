@@ -5,8 +5,6 @@ procedure bubblesort is
     A: array(0 .. 2) of Natural := (3, 1, 2);
     temp : integer:= 0;
 begin
-    IO.Put_Line("Hello, World!");
-
     For1 : for I in reverse A'Range loop
         For2 : for J in A'First ..I loop
             if A(I) < A(J) then

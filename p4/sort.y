@@ -108,6 +108,8 @@ commands:
 
 command:   
     number
+    |
+    close
     ;
 
 number:
@@ -119,8 +121,13 @@ number:
     
         insertStart(list, numEnt);
         bubbleSort(list);        
-
+    }
+    ;
+close:
+    CBRACE
+    {
         printLinkedList(list, &printList);
         printf("\n");
     }
+    ;
 %%

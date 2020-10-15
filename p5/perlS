@@ -8,6 +8,6 @@ use File::Find;
 find ( \&wanted, "/" );
 
 sub wanted {
-    print "$File::Find::name\n" if "$File::Find::name" =~ /\.conf/;
+    print "$File::Find::name\n" if "$File::Find::name" =~ /\.conf$/;
 }
 
