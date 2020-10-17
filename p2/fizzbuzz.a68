@@ -2,22 +2,21 @@
 # File:     fizzbuzz.a68                            #
 # Author:   Nicholas Klvana-Hooper                  #
 # Created:  3/9/2020                                #
-# Modified: 7/10/2020                               #
+# Modified: 17/10/2020                               #
 # Purpose:  Basic fizzbuzz program in algol 68      #
 # ------------------------------------------------- #
 
 
-FOR i TO 100
-    DO IF i MOD 15 = 0
+FOR i TO 100 DO
+    IF i MOD 15 = 0
         THEN print(("fizz buzz", new line)) 
     ELSE
         IF i MOD 3 = 0
             THEN print(("fizz", new line))
-        ELSE IF i MOD 5 = 0
+        ELIF i MOD 5 = 0
             THEN print(("buzz", new line))
-            ELSE
-                print((i, new line))
-            FI
+        ELSE
+            print((i, new line))
         FI
     FI
 OD
