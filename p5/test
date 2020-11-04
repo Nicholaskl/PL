@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./bashS | grep -ve ".conf$"
+./perlS 2>/dev/null | grep -ve ".conf$"
+ruby rubyS | grep -ve ".conf$"

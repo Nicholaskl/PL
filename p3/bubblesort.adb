@@ -2,7 +2,7 @@ with Ada.Text_IO; use Ada.Text_IO;
 
 procedure bubblesort is
     package IO renames Ada.Text_IO;
-    A: array(0 .. 2) of Natural := (3, 1, 2);
+    A: array(0 .. 4) of Natural := (3, 2, 5, 4, 1);
     temp : integer:= 0;
 begin
     For1 : for I in reverse A'Range loop
