@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+echo "(sort \`(5, 4, 3, 2, 1))" | mit-scheme --load cocktailshaker.scm
+echo "(sort \`(1, 2, 3, 4, 5))" | mit-scheme --load cocktailshaker.scm
+echo "(sort \`(3, 2, 5, 4, 1))" | mit-scheme --load cocktailshaker.scm

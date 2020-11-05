@@ -8,16 +8,16 @@
 int main() {
 	Book books[5];
 
-	books[0].SetBookID(3);
-	books[0].SetBookName("Harry Potter");
-	books[1].SetBookID(6);
-	books[1].SetBookName("Percy Jackson");
-	books[2].SetBookID(2);
-	books[2].SetBookName("The Hobbit");
+	books[2].SetBookID(3);
+	books[2].SetBookName("Harry Potter");
+	books[4].SetBookID(6);
+	books[4].SetBookName("Percy Jackson");
+	books[1].SetBookID(2);
+	books[1].SetBookName("The Hobbit");
 	books[3].SetBookID(5);
 	books[3].SetBookName("Lord of the Rings");
-	books[4].SetBookID(1);
-	books[4].SetBookName("Othello");
+	books[0].SetBookID(1);
+	books[0].SetBookName("Othello");
 
 	int IDs[sizeof(books)/sizeof(Book)];
 	Book output[sizeof(books)/sizeof(Book)];
